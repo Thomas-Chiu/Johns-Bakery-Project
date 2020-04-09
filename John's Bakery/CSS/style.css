@@ -1,0 +1,505 @@
+
+body {
+    font-family: 'Ubuntu Condensed', sans-serif, 'Noto Sans TC', sans-serif;
+    background-image: url(../Images/Stickers_2.png);
+    background-position: left 2rem;
+    background-color: #444442;
+}
+
+section {
+    margin: auto;
+    width: 75%; 
+}
+
+section:nth-child(even) {
+    background: rgba(141, 170, 199, 0.8);
+}
+
+section:nth-child(odd) {
+    background: rgba(245, 237, 167, 0.8);
+}
+
+.btn {
+    border-radius: 10px;
+    color: #fff;
+    background: rgba(218, 165, 32, 0.7);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #fff;
+    color: gray;
+    border: 1px solid rgba(218, 165, 32, 0.5);
+    cursor: pointer;
+}
+
+/* ----------navbar---------- */
+#navbar {
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+}
+
+#navbar .logo-1 img {
+    width: 8%;
+    float: left;
+    margin-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+#navbar .logo-2 img {
+    width: 7%;
+    float: right;
+    margin-right: 1rem;
+    padding-bottom: 0.3rem; 
+}
+
+#navbar .menu td, .item {
+    float: left;
+    font-size: 1.3rem;
+    color: #4B4453;
+    margin-top: 1.3rem;
+    padding: 0 1rem 0 1rem;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#navbar .menu a:hover {
+    transform: translateY(-0.25rem);
+    border-bottom:2px solid #926C00;
+}
+
+#navbar .search {
+    float: right;
+    margin: 2.5rem 0 0 2rem;
+}
+
+#navbar .search input {
+    width: 50%;
+    border-radius: 10rem 0 0 10rem;
+}
+#navbar .search button {
+    border-radius: 0 10rem 10rem 0;
+}
+/* ----------navbar end---------- */
+/* ----------aboutus---------- */
+#aboutus {
+    height: 38rem;
+    opacity: 75%;
+    background: url(../Images/Postcard\ B.png) no-repeat center/cover;
+}
+
+#aboutus h1 {
+    width: 84%;
+    color: #fff;
+    text-align: right;
+    text-shadow: 2px 2px 0.2px #000;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 0 3rem 2rem 2rem;
+    padding: 4rem 3rem 0.5rem 1rem;
+}
+
+#aboutus p {
+    width: 75%;
+    text-align: right;
+    margin: auto;    
+    padding: 0 0 0.5rem 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 1px #000;
+    line-height: 1.3;
+    /* display: inline-block; */
+}
+
+#aboutus .btn {
+    display: inline-block;
+    margin: 0 0 0 1rem;
+}
+
+#aboutus .container {
+    padding-left: 2rem;
+}
+/* ----------aboutus end------- */
+/* ----------picturebook---------- */
+#pictureBook .container {
+    width: 100%;
+    font-size: 0;
+    position: relative;
+    margin: auto;
+}
+
+#pictureBook .container h1 {
+    color: #fff;
+    text-shadow: 2px 2px 1px #000;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 0 0 0 2rem;
+    padding: 1rem 0 0.5rem 1.5rem;
+}
+#pictureBook .cover {
+    width: 40%;
+    display: inline-block;
+    position: relative;
+    left: 25%;
+    transform: translateX(-10%);
+}
+#pictureBook .cover img {
+    width: 50%;
+}
+#pictureBook .box {
+    width: 20%;
+    border: 2px solid #000;
+    display: inline-block;
+    font-size: 1rem;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    border-radius: 5%;
+}
+
+#pictureBook .box h2 {
+    color: #000;
+    text-shadow: 1px 1px 0.2px #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.5;
+    text-decoration: underline;
+    /* border-bottom: 1px solid black; */
+    margin: auto;
+    padding: 0.5rem;
+}
+
+#pictureBook .box img {
+    width: 100%;
+}
+
+#pictureBook .box p {
+    width: 100%;
+    line-height: 1.5;
+    color: #000;
+    padding: 0 1rem;
+}
+/* ----------picturebook end------- */
+/* ----------previousexam---------- */
+#previousExam .container {
+    width: 100%;
+    font-size: 0;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+#previousExam .container h1 {
+    color: #fff;
+    text-shadow: 2px 2px 1px #000;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 0 0 0 2rem;
+    padding: 1rem 0 0.5rem 1.5rem;
+}
+#previousExam .box {
+    width: 55%;
+}
+#previousExam .box img {
+    width: 50%;
+    float: left;
+}
+#previousExam .right {
+    padding-top: 1rem;
+    width: 40%;
+    font-size: 1.5rem;
+    float: right;
+    line-height: 1;
+}
+#previousExam .right a {
+    text-decoration: none;
+    color:darkslategrey;
+    font-size: 1.2rem;
+    font-style: italic;
+    transition: 0.5s;
+    line-height: 30px;
+    display: block;
+}
+#previousExam .right a:hover{
+    text-decoration: none;
+    background: greenyellow;
+    font-size: 1.25rem;
+}
+/* ----------previousexam end------- */
+/* ----------references---------- */
+#references .container {
+    width: 100%;
+    font-size: 0;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgba(98, 172, 96, 0.5);
+}
+#references .container h1 {
+    color: #fff;
+    text-shadow: 2px 2px 1px #000;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 0 0 0 2rem;
+    padding: 1rem 0 0.5rem 1.5rem;
+}
+#refTable {
+    width: 60%;
+    table-layout: fixed;
+    margin: 1rem 0 2rem 4.5rem;
+}
+#refTable a {
+    text-decoration: none;
+    color:darkslategrey;
+    font-size: 1.1rem;
+    font-style: italic;
+    transition: 0.5s;
+    line-height: 2.5;
+    display: block;
+}
+#refTable a:hover {
+    text-decoration: none;
+    background: greenyellow;
+    font-size: 1.12rem;
+}
+/* ----------references end------- */
+/* ----------resources ------- */
+#resources .container {
+    width: 100%;
+    font-size: 0;
+    background: rgba(225, 134, 116, 0.7);
+    position: relative;
+    margin: auto;
+}
+
+#resources .container h1 {
+    color: #fff;
+    text-shadow: 2px 2px 1px #000;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 0 0 0 2rem;
+    padding: 1rem 0 0.5rem 1.5rem;
+}
+#resources .box {
+    width: 100%;
+}
+#resources .box img {
+    width: 30%;
+    display: inline-block;
+    margin: -1rem;
+}
+#resources .right {
+    width: 40%;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    float: right;
+    line-height: 1;
+}
+#resources .right a {
+    text-decoration: none;
+    color:darkslategrey;
+    font-size: 1.2rem;
+    font-style: italic;
+    transition: 0.5s;
+    line-height: 30px;
+    display: block;
+    margin-right: 7.5%;
+}
+#resources .right a:hover {
+    text-decoration: none;
+    background: greenyellow;
+    /* display: block; */
+    font-size: 1.3rem;
+}
+/* ----------resources end------- */
+/* ----------contactus (copied from CodePen)------- */
+#contactUs  {
+    width: 75%;
+    height: 120vh;
+    background: #322f30;
+    margin:auto 10.5rem;
+    position: relative;
+}
+
+#contactUs h1 {
+    color: #fff;
+    text-shadow: 2px 2px 1px #000;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 0 0 0 2rem;
+    padding: 1rem 0 0.5rem 1.5rem;
+}
+
+#contactUs h4 {
+    margin-left: 3.5rem;
+    letter-spacing: 0.05rem;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #9b9b9b;
+    line-height: 1.5;
+}
+
+/* ///// inputs /////*/
+
+#contactUs input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+    font-size: 0.75em;
+    color: #999;
+    top: -5px;
+    -webkit-transition: all 0.225s ease;
+    transition: all 0.225s ease;
+}
+
+#contactUs .styled-input {
+    float: left;
+    width: 100%;
+    margin: 0.5rem 0;
+    position: relative;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px){
+    .styled-input {
+        width:100%;
+    }
+}
+
+#contactUs .styled-input label {
+    color: #999;
+    padding: 1.3rem 30px 1rem 30px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+
+#contactUs .styled-input.wide { 
+    width: 100%;
+    max-width: 100%;
+}
+
+#contactUs input,
+textarea {
+    padding: 30px;
+    border: 0;
+    width: 75%;
+    font-size: 1rem;
+    background-color: rgba(245, 245, 245, 0.2);
+    color: white;
+    border-radius: 4px;
+}
+
+input:focus,
+textarea:focus { outline: 0; }
+
+input:focus ~ span,
+textarea:focus ~ span {
+    width: 100%;
+    -webkit-transition: all 0.075s ease;
+    transition: all 0.075s ease;
+}
+
+textarea {
+    width: 132%;
+    min-height: 7rem;
+}
+
+.input-container {
+    width: 650px;
+    max-width: 100%;
+    margin: 20px auto 25px 3.5rem;
+}
+
+.submit-btn {
+    width: 121.5%;
+    text-align: center;
+    padding: 1% 10%;
+    border-radius: 3px;
+    font-size: 1rem;
+    float: left;
+    background-color: #5a7bb4;
+    color: white;
+    cursor: pointer;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.submit-btn:hover {
+    transform: translateY(-2px);
+    background-color: rgba(218, 165, 32, 0.7);
+}
+
+.contactImg {
+    position: absolute;
+    top: 14.5%;
+    right: 1%; 
+    width: 40%;
+    height: 60%;
+    background: url(../Images/Postcard\ A.png) no-repeat center top/ 87%;
+}
+/* ----------Follow Us------- */
+#hr {
+    clear: both;
+    margin-top: 55%;
+}
+#signature {
+    color: rgba(238, 238, 238, 0.5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+footer {
+    background:#322f30;
+    padding-bottom: 30px;
+   }
+  
+  footer p {
+    font-size:12px;
+    color:#fff;
+    text-align:center;
+    padding-top: 20px;
+  }
+  
+  footer ul {
+      width: 100%;
+      text-align: center;
+      margin-top: 10px;
+  }
+  
+  footer li {
+      display: inline-block;
+      margin: 5px;
+  }
+  
+  footer li a {
+      display: block;
+      text-decoration: none;
+      border-bottom: medium none;
+      padding: 10px;
+      border-radius: 5px;
+      transition: all 0.5s ease-in 0s, all 0.5s ease 0s;
+  }
+  
+  footer .facebook:hover {
+    background-color:#365397;
+  }
+  footer .twitter:hover {
+    background-color:#00a9f1;
+  }
+  footer .youtube:hover {
+    background-color:#ff3333;
+  }
+  footer .flickr:hover {
+    background-color:#0063DC;
+  }
+  footer .dribbble:hover {
+    background-color:#ed4584;
+  }
+  footer .instagram:hover {
+    background-color:#9a5d00;
+  }
+  footer .linkedin:hover {
+    background-color:#2867B2;
+  }
+  footer .github:hover {
+    background-color:#6e5494;
+  }
+/* ----------Contactus end------- */
